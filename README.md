@@ -1,2 +1,2 @@
-# Functional-Programming
+# Functional Programming
 Functional Programming - Information Design
