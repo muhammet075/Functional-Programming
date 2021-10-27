@@ -1,4 +1,4 @@
-//nieuwe lege array
+//nieuwe lege array gf
 let huisdierData = [];
 
 //loop voor de data en de favoriete huisdier in de nieuwe array pushen
