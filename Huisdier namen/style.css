@@ -1,0 +1,36 @@
+* {
+  font-family: Verdana;
+}
+
+.hoofdletter {
+  text-transform: capitalize;
+}
+
+.dataLijst {
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.dataLijst li {
+  padding: 4px 5px;
+}
+
+.dataLijst li:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dataLijst li::before {
+  content: "";
+  background-color: #ffff;
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  margin-top: 27px;
+  margin-left: -6px;
+}
+
+#tekst {
+  display: none;
+}
