@@ -1,0 +1,31 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+.fortnite {
+  width: 400px;
+}
+
+.fortnite h1 {
+  margin: 30px;
+}
+
+.fortnite img {
+  width: 200px;
+  height: auto;
+}
+
+.fortnite ul {
+  padding: 30px;
+  list-style-type: none;
+}
+
+.fortnite ul:nth-child(odd) {
+  background-color: #c9c9c9;
+}
+
+.fortnite ul:nth-child(even) {
+  background-color: #e6e6e6;
+}
