@@ -1,0 +1,14 @@
+<div class="fortnite">
+  <h1>Speciale Fortnite bundels</h1>
+
+  <section>
+    <%for (var i = 0; i < 20; i++) {%>
+    <ul>
+      <li><%= fortniteData[i].item.type %></li>
+      <li><img src="<%= fortniteData[i].item.images.background %>" /></li>
+      <li><%= fortniteData[i].item.name %></li>
+      <li><%= fortniteData[i].item.description %></li>
+    </ul>
+    <%}%>
+  </section>
+</div>
